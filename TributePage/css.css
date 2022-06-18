@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#heade {
+    background-color: rgb(209, 189, 245);
+    width: 100%;
+    padding: 30px;
+    margin: 30px 0px 30px 0px;
+  } 
+
+  h1 {
+    font-family: Georgia;
+    font-size: 50px;
+    color: #2C2C2C;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: Calibri;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgb(50, 50, 50);
+    text-align: center;
+  }
+
+  hr {
+    height: 0.5px;
+    margin: 5px 300px 5px 300px;
+    background-color: rgb(50, 50, 50);
+  }
+
+  #img-div {
+    background-color: white;
+    text-align: center;
+  }
+
+  #image {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1000px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    max-width: 80%;
+    height: auto;
+}  
+
+  #img-caption {
+    margin: 30px 300px 5px 300px;
+    font-family: Calibri;
+    font-size: 15px;
+    color: black;
+    max-margin: 100%;
+    height: auto;
+}
+    @media (max-width: 1200px) { 
+      #img-caption {
+        margin: 15px 50px 5px 50px;
+      }
+    }
+
+#tribute-info {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 70px;
+  font-family: Calibri;
+  font-weight: 800;
+  font-size: 25px;
+  color: rgb(50, 50, 50);
+}
+
+#punteo {
+  font-family: Calibri;
+  line-height: 28px;
+  font-size: 18px;
+  color: rgb(50, 50, 50);
+  margin: 5px 400px 5px 400px;
+  text-align: justify;
+}
+
+@media (max-width: 1200px) { 
+      #punteo {
+        margin: 15px 80px 5px 80px;
+      }
+    }
+
+.frase {
+  font-family: Calibri;
+  padding:20px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(50, 50, 50);
+  margin: 5px 70px 5px 70px;
+  
+}
+
+h4 {
+  font-family: Calibri;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 20px;
+  color: rgb(50, 50, 50);
+  padding: 20px;
+  background-color: rgb(209, 189, 245);
+  margin-bottom: 50px;
+}
+
+#divfrases {
+  border: #D8D8D8 5px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin: 50px;
+}

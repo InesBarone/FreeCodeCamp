@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product landing page</title>
+    <link href="css.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header id="header">
+       <!-- NAVBAR -->
+        <nav id="nav-bar"> 
+        <div class="logo">
+            <img 
+               alt="Tasty food logo" 
+               src="logo.webp"
+               id="header-img">
+            <h1>TASTY FOOD</h1>
+        </div>
+        <ul>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#choose" class="nav-link">Why choose health?</a></li>
+            <li><a href="#prices" class="nav-link">Prices</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        
+        <!-- PICTURE -->
+        <section>
+            <div id="div-picture">
+            <img src="img.webp" id="picture">
+            </div>
+        </section>
+
+        <!-- FEATURES -->
+        <section id="features">
+            <div class="features-caracteristics">
+                <img src="tic.png" alt="tic image" class="features-img">
+                <div class="text">
+                <p class="title-features">Quality products</p>
+                <p class="text-features">All raw materials are of natural origin, from organic gardens and national refrigerators. Prepared by the best chefs, under the guidance of nutritionists, specialized in the needs of each consumer.</p>
+            </div>
+            </div>
+            <div class="features-caracteristics">
+                <img src="menu.png" alt="menu image" class="features-img">
+                <div class="text">
+                <p class="title-features">Variety of options</p>
+                <p class="text-features">We have various meal plans, with different proposals and proportions. You can access the totally personalized plan, with a pass to our best nutritionists to accommodate your preferences for a good balanced and healthy diet.</p>
+            </div>
+            </div>
+            <div class="features-caracteristics">
+                <img src="delivery.png" alt="delivery image" class="features-img">
+                <div class="text">
+                <p class="title-features">Delivery on time</p>
+                <p class="text-features">The delivery service is responsible for distributing the menus regularly and exactly at the time previously stipulated by the consumer, without delay. The possibility of removing it in the pick up is also present for those who find it more comfortable.</p>
+            </div>
+            </div>
+        </section>
+
+         <!-- VIDEO -->
+         <section id="choose">
+            <iframe
+              id="video"
+              height="315"
+              width="516"
+              src="https://www.youtube.com/embed/xyQY8a-ng6g"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+              </section>
+
+        <!-- PRICES -->
+        <section id="prices">
+            <div class="container">
+                <img src="price1.webp" class="img-prices">
+                <div class="contain">
+                  <p class="title-price">Classic Menu</p>
+                  <p class="text-price">Classic menu, includes only the main meal.</p>
+                </div>
+                <p class="cost">$120</p>
+            </div>
+            <div class="container">
+                <img src="price2.webp" class="img-prices">            
+                <div class="contain">
+                  <p class="title-price">Executive Menu</p>
+                  <p class="text-price">Full menu, includes main meal and dessert.</p>
+                </div>
+                <p class="cost">$150</p>
+            </div>
+            <div class="container">
+                <img src="price3.webp" class="img-prices">
+                <div class="contain">
+                  <p class="title-price">Veggie Menu</p>
+                  <p class="text-price">Complete menu with ingredients of non-animal origin.</p>
+              </div>
+                <p class="cost">$160</p>
+            </div>
+        </section>
+
+         <!-- FORM -->
+        <section id="form-container">
+            <h2>For more information</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit).">
+            <input 
+                name="email"
+                id="email"
+                type="email"
+                placeholder="Enter your email address"
+                required>
+            <input id="submit" type="submit" value="Submit" class="btn">
+            </form>  
+        </section>
+    
+    </main>
+
+</body>
+</html>

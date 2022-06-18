@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link href="css.css" rel="stylesheet">
+</head>
+<body>
+    <div id="background">
+
+        <header>
+            <h1 id="title">HAPPY DOGS</h1>
+            <p id="description"><strong>Let's get in touch!</strong></p>
+        </header>
+
+        <main>
+            <form id="survey-form">
+        
+                <div class="form-group">
+                    <label id="name-label" for="name">Name</label><br>
+                    <input 
+                         type="text" 
+                         id="name" 
+                         class="letter"
+                         placeholder="Enter your name" 
+                         required/>
+                </div>
+                
+                  
+               <div class="form-group"> 
+                    <label id="email-label" for="email">Email</label><br>
+                    <input 
+                         type="email" 
+                         id="email" 
+                         class="letter"
+                         placeholder="Enter your Email" 
+                         required>
+                </div>
+                             
+                <div class="form-group"> 
+                    <label id="petname-label" for="pet-name">Dog name</label><br>
+                    <input 
+                         type="text" 
+                         id="pet-name" 
+                         class="letter"
+                         placeholder="Enter your pet name" 
+                         required>
+                    </div>
+                  
+                <div class="form-group"> 
+                    <label id="number-label" for="pet-age">Dog age</label><br>
+                    <input 
+                         type="number" 
+                         id="number"
+                         class="letter"
+                         min="0" 
+                         max="100" 
+                         placeholder="Age" 
+                         required>
+                </div>
+                    
+                <div class="form-group"> 
+                    <label id="dropdown-label" for="Hour-of-care">When it needs care in general?</label><br>
+                        <select name="dropdown" id="dropdown" class="letter">
+                          <option value="morning">Morning</option>
+                          <option value="morning">Midday</option>
+                          <option value="afternoon">Afternoon</option>
+                          <option value="midnight">Midnight</option>
+                          <option value="night">Night</option>
+                        </select>
+                </div>
+                  
+                <div class="form-group">
+                    <label id="personality-label" for="Personality">How is it normally with other dogs?</label><br>      
+                    <label for="Aggressive"><input id="options" type="radio" name="personality" value="agressive">Aggressive</label><br>
+                    <label for="Shy"><input id="options" type="radio" name="personality" value="shy">Shy</label><br>
+                    <label for="Fearful"><input id="options" type="radio" name="personality" value="fearful">Fearful</label><br>
+                    <label for="sociable"><input id="options" type="radio" name="personality" value="sociable">Sociable</label><br>
+                    <label for="playful"><input id="options" type="radio" name="personality" value="playful">Playful</label><br>
+                </div>
+                    
+                <div class="form-group">
+                    <label id="include-label" for="include">What do you want to include in the care?</label><br>  
+                    <label for="games"><input id="options" type="checkbox" name="include" value="recreational-games">Recreational games</label><br>
+                    <label for="bath"><input id="options" type="checkbox" name="include" value="bath">Bath</label><br>
+                    <label for="food"><input id="options" type="checkbox" name="include" value="food">Food</label><br>
+                </div>
+                    
+                <div class="form-group">
+                    <label id="comments-label" for="comments">Is there anything else you would like to tell us about?</label><br>  
+                    <p><textarea 
+                               name="mensaje" 
+                               placeholder="Enter your comment here" class="letter"></textarea></p>
+                </div>
+                    
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </main>
+
+    </div>
+
+</body>
+</html>
+
